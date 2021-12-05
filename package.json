@@ -1,0 +1,19 @@
+{
+  "name": "yesbuild-solidjs-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "yesbuild",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "solid-js": "^1.2.5"
+  },
+  "dependencies": {
+    "yesbuild-core": "^0.1.1",
+    "yesbuild-solidjs": "^0.1.0"
+  }
+}
