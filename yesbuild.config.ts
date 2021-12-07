@@ -46,7 +46,7 @@ yesbuild.defineTask('serve', function*() {
   const assetsResult = yield useTask('assets');
   const defaultResult = yield useTask('default');
   return useDevServer({
-    port: 3000,
+    port: 3001,
     // Tell yesbuild th map http requests to the directories
     // of another two tasks.
     mapTasks: [defaultResult, assetsResult],

@@ -26,11 +26,16 @@ Clone the repo. Run `pnpm/npm/yarn`.
 pnpm run build
 ```
 
+You can run this command again and again to test the dependencies checking of Yesbuild.
+And run again after you editing the sources files.
+
 ### Start a Dev Server
 
 ```sh
 pnpm run start
 ```
+
+The dev serve will automatially watch your source files, try editing one of them.
 
 ## Unfinished job
 
